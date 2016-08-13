@@ -1,0 +1,58 @@
+﻿@model Demo.ViewModels.ProductViewModel
+
+@{
+    ViewBag.Title = "Delete Product";
+}
+
+<fieldset style="margin-top: 50px;">
+    <legend>Delete product</legend>
+
+    <h4 id="question">@ViewBag.Question</h4>
+    <div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductId)
+            </dt>
+
+            <dd id="productId">
+                @Html.DisplayFor(model => model.ProductId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </dt>
+
+            <dd id="productName">
+                @Html.DisplayFor(model => model.ProductName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductDescription)
+            </dt>
+
+            <dd id="productDescription">
+                @Html.DisplayFor(model => model.ProductDescription)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductPrice)
+            </dt>
+
+            <dd id="productPrice">
+                @Html.DisplayFor(model => model.ProductPrice)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" id="btnDelete" class="btn btn-primary" /> |
+                @Html.ActionLink("Back to List", "List")
+            </div>
+        }
+    </div>
+
+</fieldset>

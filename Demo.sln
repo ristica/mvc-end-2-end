@@ -1,0 +1,142 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Client", "Demo.Client\Demo.Client.csproj", "{64C39A05-05DB-4C8D-B11E-CBDAFB932431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Controllers", "Demo.Controllers\Demo.Controllers.csproj", "{7447C493-566F-49CD-BB05-785239D0AFCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Db", "Demo.Db\Demo.Db.csproj", "{5E60978D-747D-4229-B7AD-8C4EE09CDDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Repository", "Demo.Repository\Demo.Repository.csproj", "{32B1F362-F154-4502-8AFC-ED9F356A6FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Entities", "Demo.Entities\Demo.Entities.csproj", "{6A8F355A-93C1-4984-91E8-5342C1D3405D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ViewModels", "Demo.ViewModels\Demo.ViewModels.csproj", "{EAFCBFB9-2CCE-4851-89BD-F8F174676DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{65E47861-C6BD-4E6B-83B1-1A2736A4F2B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access", "Data Access", "{6F3DF057-059C-4CBC-AEF9-4340FAC25294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{F449FF3B-F1B4-4A88-B70A-39738E9882DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{635DCAF1-9024-4A74-9952-15681E6F1460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Controller.Tests", "Demo.Controller.Tests\Demo.Controller.Tests.csproj", "{082ED510-193D-457B-8EBA-61B755D4EE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Selenium.Functional.Tests", "Demo.Selenium.Functional.Tests\Demo.Selenium.Functional.Tests.csproj", "{FA57C94A-3FC8-4C09-A394-CC3D417A4C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Integration.Tests", "Demo.Integration.Tests\Demo.Integration.Tests.csproj", "{D1E601F9-1CB6-40E3-8F88-4B1F77D901D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.View.Tests", "Demo.View.Tests\Demo.View.Tests.csproj", "{AC340B38-B702-4A54-8AC9-D406FE36B65C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C39A05-05DB-4C8D-B11E-CBDAFB932431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C39A05-05DB-4C8D-B11E-CBDAFB932431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C39A05-05DB-4C8D-B11E-CBDAFB932431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C39A05-05DB-4C8D-B11E-CBDAFB932431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7447C493-566F-49CD-BB05-785239D0AFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7447C493-566F-49CD-BB05-785239D0AFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7447C493-566F-49CD-BB05-785239D0AFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7447C493-566F-49CD-BB05-785239D0AFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E60978D-747D-4229-B7AD-8C4EE09CDDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E60978D-747D-4229-B7AD-8C4EE09CDDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E60978D-747D-4229-B7AD-8C4EE09CDDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E60978D-747D-4229-B7AD-8C4EE09CDDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B1F362-F154-4502-8AFC-ED9F356A6FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B1F362-F154-4502-8AFC-ED9F356A6FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B1F362-F154-4502-8AFC-ED9F356A6FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B1F362-F154-4502-8AFC-ED9F356A6FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8F355A-93C1-4984-91E8-5342C1D3405D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8F355A-93C1-4984-91E8-5342C1D3405D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8F355A-93C1-4984-91E8-5342C1D3405D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8F355A-93C1-4984-91E8-5342C1D3405D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFCBFB9-2CCE-4851-89BD-F8F174676DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFCBFB9-2CCE-4851-89BD-F8F174676DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFCBFB9-2CCE-4851-89BD-F8F174676DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFCBFB9-2CCE-4851-89BD-F8F174676DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082ED510-193D-457B-8EBA-61B755D4EE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082ED510-193D-457B-8EBA-61B755D4EE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082ED510-193D-457B-8EBA-61B755D4EE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082ED510-193D-457B-8EBA-61B755D4EE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA57C94A-3FC8-4C09-A394-CC3D417A4C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA57C94A-3FC8-4C09-A394-CC3D417A4C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA57C94A-3FC8-4C09-A394-CC3D417A4C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA57C94A-3FC8-4C09-A394-CC3D417A4C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E601F9-1CB6-40E3-8F88-4B1F77D901D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E601F9-1CB6-40E3-8F88-4B1F77D901D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E601F9-1CB6-40E3-8F88-4B1F77D901D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E601F9-1CB6-40E3-8F88-4B1F77D901D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC340B38-B702-4A54-8AC9-D406FE36B65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC340B38-B702-4A54-8AC9-D406FE36B65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC340B38-B702-4A54-8AC9-D406FE36B65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC340B38-B702-4A54-8AC9-D406FE36B65C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64C39A05-05DB-4C8D-B11E-CBDAFB932431} = {65E47861-C6BD-4E6B-83B1-1A2736A4F2B7}
+		{7447C493-566F-49CD-BB05-785239D0AFCB} = {F449FF3B-F1B4-4A88-B70A-39738E9882DB}
+		{5E60978D-747D-4229-B7AD-8C4EE09CDDB7} = {6F3DF057-059C-4CBC-AEF9-4340FAC25294}
+		{32B1F362-F154-4502-8AFC-ED9F356A6FC6} = {6F3DF057-059C-4CBC-AEF9-4340FAC25294}
+		{6A8F355A-93C1-4984-91E8-5342C1D3405D} = {F449FF3B-F1B4-4A88-B70A-39738E9882DB}
+		{EAFCBFB9-2CCE-4851-89BD-F8F174676DCC} = {65E47861-C6BD-4E6B-83B1-1A2736A4F2B7}
+		{082ED510-193D-457B-8EBA-61B755D4EE34} = {635DCAF1-9024-4A74-9952-15681E6F1460}
+		{FA57C94A-3FC8-4C09-A394-CC3D417A4C70} = {635DCAF1-9024-4A74-9952-15681E6F1460}
+		{D1E601F9-1CB6-40E3-8F88-4B1F77D901D9} = {635DCAF1-9024-4A74-9952-15681E6F1460}
+		{AC340B38-B702-4A54-8AC9-D406FE36B65C} = {635DCAF1-9024-4A74-9952-15681E6F1460}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.at.zurich.com:8080/tfs/zurichcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Demo.Client\\Demo.Client.csproj
+		SccProjectTopLevelParentUniqueName1 = Demo.sln
+		SccProjectName1 = Demo.Client
+		SccLocalPath1 = Demo.Client
+		SccProjectUniqueName2 = Demo.Controller.Tests\\Demo.Controller.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = Demo.sln
+		SccProjectName2 = Demo.Controller.Tests
+		SccLocalPath2 = Demo.Controller.Tests
+		SccProjectUniqueName3 = Demo.Controllers\\Demo.Controllers.csproj
+		SccProjectTopLevelParentUniqueName3 = Demo.sln
+		SccProjectName3 = Demo.Controllers
+		SccLocalPath3 = Demo.Controllers
+		SccProjectUniqueName4 = Demo.Db\\Demo.Db.csproj
+		SccProjectTopLevelParentUniqueName4 = Demo.sln
+		SccProjectName4 = Demo.Db
+		SccLocalPath4 = Demo.Db
+		SccProjectUniqueName5 = Demo.Entities\\Demo.Entities.csproj
+		SccProjectTopLevelParentUniqueName5 = Demo.sln
+		SccProjectName5 = Demo.Entities
+		SccLocalPath5 = Demo.Entities
+		SccProjectUniqueName6 = Demo.Repository\\Demo.Repository.csproj
+		SccProjectTopLevelParentUniqueName6 = Demo.sln
+		SccProjectName6 = Demo.Repository
+		SccLocalPath6 = Demo.Repository
+		SccProjectUniqueName7 = Demo.ViewModels\\Demo.ViewModels.csproj
+		SccProjectTopLevelParentUniqueName7 = Demo.sln
+		SccProjectName7 = Demo.ViewModels
+		SccLocalPath7 = Demo.ViewModels
+		SccProjectUniqueName8 = Demo.Selenium.Functional.Tests\\Demo.Selenium.Functional.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = Demo.sln
+		SccProjectName8 = Demo.Selenium.Functional.Tests
+		SccLocalPath8 = Demo.Selenium.Functional.Tests
+		SccProjectUniqueName9 = Demo.Integration.Tests\\Demo.Integration.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = Demo.sln
+		SccProjectName9 = Demo.Integration.Tests
+		SccLocalPath9 = Demo.Integration.Tests
+		SccProjectUniqueName10 = Demo.View.Tests\\Demo.View.Tests.csproj
+		SccProjectTopLevelParentUniqueName10 = Demo.sln
+		SccProjectName10 = Demo.View.Tests
+		SccLocalPath10 = Demo.View.Tests
+	EndGlobalSection
+EndGlobal
